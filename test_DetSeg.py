@@ -32,47 +32,47 @@ usecols.extend(AU_i)
 usecols.extend(AU_p)
 
 
-v1_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_HI_Front/DET0102_V1_HI_Front.csv',
-                                label_path='./Annots/DET0102_V1_HI_Front.csv', 
+v1_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_HI.csv',
+                                label_path='./Annots/DET0102_V1_HI.csv', 
                                 usecols=usecols)
-v1_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_LO_Front/DET0102_V1_LO_Front.csv',
-                                label_path='./Annots/DET0102_V1_LO_Front.csv', 
+v1_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_LO.csv',
+                                label_path='./Annots/DET0102_V1_LO.csv', 
                                 usecols=usecols)
-v1_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_NO_Front/DET0102_V1_NO_Front.csv',
-                                label_path='./Annots/DET0102_V1_NO_Front.csv', 
-                                usecols=usecols)
-
-
-v2_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_HI_Front/DET0102_V2_HI_Front.csv',
-                                label_path='./Annots/DET0102_V2_HI_Front.csv', 
-                                usecols=usecols)
-v2_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_LO_Front/DET0102_V2_LO_Front.csv',
-                                label_path='./Annots/DET0102_V2_LO_Front.csv', 
-                                usecols=usecols)
-v2_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_NO_Front/DET0102_V2_NO_Front.csv',
-                                label_path='./Annots/DET0102_V2_NO_Front.csv', 
+v1_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V1_NO.csv',
+                                label_path='./Annots/DET0102_V1_NO.csv', 
                                 usecols=usecols)
 
 
-v3_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_HI_Front/DET0102_V3_HI_Front.csv',
-                                label_path='./Annots/DET0102_V3_HI_Front.csv', 
+v2_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_HI.csv',
+                                label_path='./Annots/DET0102_V2_HI.csv', 
                                 usecols=usecols)
-v3_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_LO_Front/DET0102_V3_LO_Front.csv',
-                                label_path='./Annots/DET0102_V3_LO_Front.csv', 
+v2_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_LO.csv',
+                                label_path='./Annots/DET0102_V2_LO.csv', 
                                 usecols=usecols)
-v3_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_NO_Front/DET0102_V3_NO_Front.csv',
-                                label_path='./Annots/DET0102_V3_NO_Front.csv', 
+v2_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V2_NO.csv',
+                                label_path='./Annots/DET0102_V2_NO.csv', 
                                 usecols=usecols)
 
 
-v4_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_HI_Front/DET0102_V4_HI_Front.csv',
-                                label_path='./Annots/DET0102_V4_HI_Front.csv', 
+v3_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_HI.csv',
+                                label_path='./Annots/DET0102_V3_HI.csv', 
                                 usecols=usecols)
-v4_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_LO_Front/DET0102_V4_LO_Front.csv',
-                                label_path='./Annots/DET0102_V4_LO_Front.csv', 
+v3_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_LO.csv',
+                                label_path='./Annots/DET0102_V3_LO.csv', 
                                 usecols=usecols)
-v4_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_NO_Front/DET0102_V4_NO_Front.csv',
-                                label_path='./Annots/DET0102_V4_NO_Front.csv', 
+v3_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V3_NO.csv',
+                                label_path='./Annots/DET0102_V3_NO.csv', 
+                                usecols=usecols)
+
+
+v4_hi = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_HI.csv',
+                                label_path='./Annots/DET0102_V4_HI.csv', 
+                                usecols=usecols)
+v4_lo = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_LO.csv',
+                                label_path='./Annots/DET0102_V4_LO.csv', 
+                                usecols=usecols)
+v4_no = get_data_table_DET0102(au_table_path='./AU/DET0102_V4_NO.csv',
+                                label_path='./Annots/DET0102_V4_NO.csv', 
                                 usecols=usecols)
 
 
