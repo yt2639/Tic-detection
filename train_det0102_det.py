@@ -197,6 +197,7 @@ print('Train batch_size = {}'.format(BATCH_SIZE))
 
 ## anchors
 all_proposal_boxes = anchors_det0102()
+# all_proposal_boxes = kmeans_anchors(all_train_gt_boxes)
 all_proposal_boxes = all_proposal_boxes.to(device)
 
 # training settings

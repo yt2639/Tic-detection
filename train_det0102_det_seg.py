@@ -265,6 +265,7 @@ print('model moves to GPU done!')
 
 
 all_proposal_boxes = anchors_det0102()
+# all_proposal_boxes = kmeans_anchors(all_train_gt_boxes)
 all_proposal_boxes = all_proposal_boxes.to(device)
 # using data_parallel will split the input, so need to cat
 input_2_net_all_proposal_boxes = torch.cat([all_proposal_boxes]*len(device_ids))
