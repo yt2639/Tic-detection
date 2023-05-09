@@ -9,5 +9,5 @@ This is the official implementation of the ICPR 2022 paper [**Facial Tic Detecti
 - test_Det.py: code for testing TNet (det branch only)
 - test_DetSeg.py: code for testing TNet
 
-## Data and Annotations
+## Data, Annotations, and trained models
 Could be downloaded from this link.
