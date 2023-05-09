@@ -649,3 +649,4 @@ class Det_Seg1D(nn.Module):
             self.ori_det = self.detect.ori_det
             return detections, d1
 
+

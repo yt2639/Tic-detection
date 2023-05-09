@@ -54,3 +54,4 @@ class Detection1D(nn.Module):
                     
         return detections
     
+

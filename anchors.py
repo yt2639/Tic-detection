@@ -172,3 +172,4 @@ def anchors_det0102(w = np.array([  9.08165741 , 19.34402275 , 30.08503914 , 43.
     all_proposal_boxes = torch.cat(all_proposal_boxes)
     print(all_proposal_boxes.shape)
     return all_proposal_boxes
+

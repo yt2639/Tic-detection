@@ -547,4 +547,3 @@ writer.close()
 
 # python train_det0102_det_seg.py v2 share no_pretrain scratch log/train_20211229_det0102_[Large512]_[LOSO_v2].log 704 0,1,2,3
 
-

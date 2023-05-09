@@ -58,6 +58,3 @@ def get_data_table_DET0102(au_table_path='',
     return data_to_use
 
 
-
-
-

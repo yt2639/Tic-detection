@@ -73,3 +73,5 @@ def GLOBAL_cal_seg_metrics(all_seg_results, all_test_video_general_labels, all_t
     
     return all_dice,all_acc,all_recall,all_precision,all_f1,all_auc
 
+
+

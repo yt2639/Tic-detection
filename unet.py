@@ -1118,10 +1118,3 @@ class DecoderRNN_attn(nn.Module):
         return torch.zeros(self.num_layers_decoder, 1, self.feature_dim)
 
 
-
-
-
-
-
-
-

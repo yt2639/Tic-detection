@@ -34,3 +34,4 @@ def nms(cur_pred_boxes_point_form, cur_score, nms_threshold=0.5, top_k=10, use_E
 
     return keep[:count], count
 
+
